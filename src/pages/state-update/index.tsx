@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import "./styles.css";
 import Input from "./Input";
+import "./styles.css";
 
 export default function Page() {
     const [x, setX] = useState(0);
