@@ -1,12 +1,32 @@
-import React from 'react';
+import React, { FC, useState } from 'react';
 import ReactDOM from 'react-dom/client';
+import Router from './Router';
+import Footer from './components/Footer';
+import GithubCorner from './components/GithubCorner';
+import Refresh from './components/Refresh';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
+const App: FC = () => {
+  const [count, setCount] = useState(0);
+  return (
+    <>
+      <Router key={count} />
+      <Refresh 
+        onClick={() => setCount(count + 1)} 
+      />
+      <GithubCorner />
+      <Footer
+        title="Enter animation"
+        url="https://framer.com/docs/animation/"
+      />
+    </>
+  );
+};
 root.render(
   <React.StrictMode>
     <App />
