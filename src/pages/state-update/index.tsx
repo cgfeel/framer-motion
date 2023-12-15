@@ -8,7 +8,7 @@ export default function Page() {
 
     return (
         <div>
-            test
+            test page
         </div>
     );
 }
