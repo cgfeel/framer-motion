@@ -16,7 +16,7 @@
 
 ### 状态更新
 
-- 目录：`/src/pages/start` [[查看](https://github.com/cgfeel/framer-motion/tree/main/src/pages/state-update)]
+- 目录：`/src/pages/state-update` [[查看](https://github.com/cgfeel/framer-motion/tree/main/src/pages/state-update)]
 
 **划重点：** 和`React`一样，可以通过`state`作为动画的`props`声明式的创建动画
 
