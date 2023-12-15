@@ -20,6 +20,8 @@
 
 **划重点：** 和`React`一样，可以通过`state`作为动画的`props`声明式的创建动画
 
+陆续更新中...
+
 ---
 
 ## Getting Started with Create React App
