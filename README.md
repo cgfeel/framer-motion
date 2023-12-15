@@ -1,6 +1,6 @@
 # Framer-motion
 
-将按照官方文档[[查看](https://www.framer.com/motion/introduction/##installation)]，以最小示例去实现文档知识点。可直接本地运行或在对应的`CodeSoundbox`中查看演示
+将按照官方文档[[查看](https://www.framer.com/motion/)]，以最小示例去实现文档知识点。可直接本地运行或在对应的`CodeSoundbox`中查看演示
 
 `CodeSoundbox`演示地址：https://codesandbox.io/p/github/cgfeel/framer-motion/main
 
@@ -10,13 +10,13 @@
 
 ### 基本的动画
 
-- 目录：`/src/pages/start`
+- 目录：`/src/pages/start` [[查看](https://github.com/cgfeel/framer-motion/tree/main/src/pages/start)]
 
 **划重点：** 一切从`<motion>`组件开始
 
 ### 状态更新
 
-- 目录：`/src/pages/start`
+- 目录：`/src/pages/start` [[查看](https://github.com/cgfeel/framer-motion/tree/main/src/pages/state-update)]
 
 **划重点：** 和`React`一样，可以通过`state`作为动画的`props`声明式的创建动画
 
