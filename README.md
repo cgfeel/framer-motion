@@ -47,6 +47,19 @@
 - 添加`transition`可以为关键帧定时以及减缓程度
 - 案例参数见代码注释
 
+### 变体
+
+变体是组件可用的预定义视觉状态，暂且可以用`CSS`的`@keyframes`来理解，它包含了`open`和`close`两个节点，通过在节点中添加`transition`实现动画
+
+- 目录：`/src/pages/start-variants` [[查看](https://github.com/cgfeel/framer-motion/tree/main/src/pages/start-variants)]
+
+**划重点：** 
+
+- 变体允许在父级组件中设置prop`animate`，为整个子集设置动画
+- 变体可应用于HTML元素或SVG，除了接受`transition`，还接受元素相关属性
+- 变体接受一个函数作为节点，以便动态提供props
+- 演示中`transition`属性可能有不明白，不要紧先跳过，后面会继续研究
+
 ---
 
 ## Getting Started with Create React App

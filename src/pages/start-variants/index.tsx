@@ -15,6 +15,7 @@ const sidebar: AnimationProps['variants'] = {
             type: 'spring'
         }
     },
+    // Variants can also be dynamic functions that return different props based on data passed to each component's custom prop.
     open: (height = 1000) => ({
         clipPath: `circle(${height * 2 + 200}px at 40px 40px)`,
         transition: {
@@ -33,7 +34,7 @@ export default function Page() {
 
     return (
         <motion.nav
-            animate={isOpen ? 'open' : 'closed'}
+            animate={isOpen ? 'open' : 'closed'}  // 更改这个props将更改整个react tree
             custom={height}
             initial={false}
             ref={containerRef}
