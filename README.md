@@ -22,7 +22,7 @@
 
 ### 手势支持
 
-还是最初的基本动画，给他添加手势支持
+还是最初的基本动画[[查看](#基本的动画)]，给他添加手势支持
 
 - 目录：`/src/pages/start-gestures` [[查看](https://github.com/cgfeel/framer-motion/tree/main/src/pages/start-gestures)]
 
@@ -30,13 +30,13 @@
 
 ### 添加过渡
 
-还是最初的基本动画，通过`transition`为它添加过渡
+还是最初的基本动画[[查看](#基本的动画)]，通过`transition`为它添加过渡
 
 - 目录：`/src/pages/start-transition` [[查看](https://github.com/cgfeel/framer-motion/tree/main/src/pages/start-transition)]
 
 ### 添加关键帧
 
-在上面`transition`过渡进出上做一个进阶，添加关键帧
+在上面`transition`过渡[[查看](#添加过渡)]基础上做一个进阶，添加关键帧
 
 - 目录：`/src/pages/start-keyframes` [[查看](https://github.com/cgfeel/framer-motion/tree/main/src/pages/start-keyframes)]
 
