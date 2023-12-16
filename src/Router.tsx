@@ -7,6 +7,7 @@ const router = {
     '/start-keyframes': lazy(() => import('./pages/start-keyframes')),
     '/start-state-update': lazy(() => import('./pages/start-state-update')),
     '/start-transition': lazy(() => import('./pages/start-transition')),
+    '/start-variants': lazy(() => import('./pages/start-variants')),
     '/test': lazy(() => import('./pages/test')),
 };
 
