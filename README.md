@@ -8,35 +8,35 @@
 
 ## 开始
 
-### 基本的动画
+### 基本的动画-motion
 
 - 目录：`/src/pages/start` [[查看](https://github.com/cgfeel/framer-motion/tree/main/src/pages/start)]
 
 **划重点：** 一切从`<motion>`组件开始
 
-### 状态更新
+### 状态更新-state
 
 - 目录：`/src/pages/start-state-update` [[查看](https://github.com/cgfeel/framer-motion/tree/main/src/pages/start-state-update)]
 
 **划重点：** 和`React`一样，可以通过`state`作为动画的`props`声明式的创建动画
 
-### 手势支持
+### 手势支持-Gestures
 
-还是最初的基本动画[[查看](#基本的动画)]，给他添加手势支持
+还是最初的基本动画[[查看](#基本的动画-motion)]，给他添加手势支持
 
 - 目录：`/src/pages/start-gestures` [[查看](https://github.com/cgfeel/framer-motion/tree/main/src/pages/start-gestures)]
 
 **划重点：** 支持：hover（悬停），tap（点击），pan（平移），drag（拖动）
 
-### 添加过渡
+### 添加过渡-Transition
 
-还是最初的基本动画[[查看](#基本的动画)]，通过`transition`为它添加过渡
+还是最初的基本动画[[查看](#基本的动画-motion)]，通过`transition`为它添加过渡
 
 - 目录：`/src/pages/start-transition` [[查看](https://github.com/cgfeel/framer-motion/tree/main/src/pages/start-transition)]
 
-### 添加关键帧
+### 添加关键帧-Keyframes
 
-在上面`transition`过渡[[查看](#添加过渡)]基础上做一个进阶，添加关键帧
+在上面`transition`过渡[[查看](#添加过渡-Transition)]基础上做一个进阶，添加关键帧
 
 - 目录：`/src/pages/start-keyframes` [[查看](https://github.com/cgfeel/framer-motion/tree/main/src/pages/start-keyframes)]
 
@@ -47,7 +47,7 @@
 - 添加`transition`可以为关键帧定时以及减缓程度
 - 案例参数见代码注释
 
-### 变体
+### 变体-Variants
 
 变体是组件可用的预定义视觉状态，暂且可以用`CSS`的`@keyframes`来理解，它包含了`open`和`close`两个节点，通过在节点中添加`transition`实现动画
 
