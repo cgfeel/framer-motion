@@ -16,11 +16,36 @@
 
 ### 状态更新
 
-- 目录：`/src/pages/state-update` [[查看](https://github.com/cgfeel/framer-motion/tree/main/src/pages/state-update)]
+- 目录：`/src/pages/start-state-update` [[查看](https://github.com/cgfeel/framer-motion/tree/main/src/pages/start-state-update)]
 
 **划重点：** 和`React`一样，可以通过`state`作为动画的`props`声明式的创建动画
 
-陆续更新中...
+### 手势支持
+
+还是最初的基本动画，给他添加手势支持
+
+- 目录：`/src/pages/start-gestures` [[查看](https://github.com/cgfeel/framer-motion/tree/main/src/pages/start-gestures)]
+
+**划重点：** 支持：hover（悬停），tap（点击），pan（平移），drag（拖动）
+
+### 添加过渡
+
+还是最初的基本动画，通过`transition`为它添加过渡
+
+- 目录：`/src/pages/start-transition` [[查看](https://github.com/cgfeel/framer-motion/tree/main/src/pages/start-transition)]
+
+### 添加关键帧
+
+在上面`transition`过渡进出上做一个进阶，添加关键帧
+
+- 目录：`/src/pages/start-keyframes` [[查看](https://github.com/cgfeel/framer-motion/tree/main/src/pages/start-keyframes)]
+
+**划重点：** 
+
+- 将数组作为配置，可作为动画的关键帧，`motion`会依次执行设置动画
+- 整个动画的关键帧将会平均间隔
+- 添加`transition`可以为关键帧定时以及减缓程度
+- 案例参数见代码注释
 
 ---
 
