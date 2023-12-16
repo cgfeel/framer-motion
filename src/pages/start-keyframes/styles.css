@@ -1,0 +1,42 @@
+:root {
+    --background: var(--purple);
+    --accent: var(--white);
+}
+footer {
+    border-top: none;
+}
+footer::before {
+    -moz-backdrop-filter: brightness(90%) blur(20px);
+    -webkit-backdrop-filter: brightness(90%) blur(20px);
+    -webkit-mask-image: repeating-radial-gradient(
+        circle at 50% 50%,
+        var(--background),
+        var(--background) 20px,
+        rgba(255, 255, 255, .3) 20.5px,
+        rgba(255, 255, 255, .3) 21px
+    );
+    backdrop-filter: brightness(90%) blur(20px);
+    background-size: 15px 15px;
+    bottom: 0;
+    content: '';
+    display: block;
+    left: 0;
+    mask-image: repeating-radial-gradient(
+        circle at 50% 50% center,
+        var(--background),
+        var(--background) 20px,
+        rgba(255, 255, 255, .3) 20.5px,
+        rgba(255, 255, 255, .3) 21px
+    );
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+footer a, footer svg {
+    position: relative;
+}
+.box {
+    background-color: var(--accent);
+    height: 200px;
+    width: 200px;
+}

@@ -3,7 +3,10 @@ import { Suspense, lazy } from 'react';
 const router = {
     '/': lazy(() => import('./App')),
     '/start': lazy(() => import('./pages/start')),
-    '/state-update': lazy(() => import('./pages/state-update')),
+    '/start-gestures': lazy(() => import('./pages/start-gestures')),
+    '/start-keyframes': lazy(() => import('./pages/start-keyframes')),
+    '/start-state-update': lazy(() => import('./pages/start-state-update')),
+    '/start-transition': lazy(() => import('./pages/start-transition')),
     '/test': lazy(() => import('./pages/test')),
 };
 
