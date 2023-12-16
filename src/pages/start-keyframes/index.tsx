@@ -7,7 +7,7 @@ export default function Page() {
             className="box"
             animate={{
                 borderRadius: ["0%", "0%", "50%", "50%", "0%"],  // 边框半径
-                rotate: [0, 0, 180, 180, 0],                     // 旋转
+                rotate: [0, 0, 180, 180, 0],                     // 旋转角度
                 scale: [1, 2, 2, 1, 1],                          // 大小比例
             }}
             transition={{
